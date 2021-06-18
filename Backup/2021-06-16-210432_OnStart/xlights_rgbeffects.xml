@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
-  <models>
-    <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" parm2="80" DropPattern="3,4,5,4" LayoutGroup="Default" StringType="Single Color White" name="Icicles - Top Windows" WorldPosX="366.0474" WorldPosY="524.3716" WorldPosZ="0.0000" X2="104.918030" Y2="1.165710" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="&gt;Icicles - Front House:1">
-      <ControllerConnection/>
-    </model>
-    <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" parm2="80" DropPattern="3,4,5,4" LayoutGroup="Default" StringType="Single Color White" name="Icicles - Front House" WorldPosX="245.4757" WorldPosY="441.4733" WorldPosZ="0.0000" X2="296.600769" Y2="0.129608" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="&gt;Icicles - Garage:1">
-      <ControllerConnection/>
-    </model>
-    <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" parm2="80" DropPattern="3,4,5,4" LayoutGroup="Default" StringType="Single Color White" name="Icicles - Garage" WorldPosX="575.8834" WorldPosY="422.9508" WorldPosZ="0.0000" X2="261.129395" Y2="-9.326050" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="1">
-      <ControllerConnection/>
-    </model>
-  </models>
+  <models/>
   <view_objects>
-    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5"/>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" Active="1" versionNumber="5" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000"/>
   </view_objects>
   <effects version="0007"/>
   <views/>
@@ -25,7 +15,6 @@
   <settings>
     <previewWidth value="1280"/>
     <previewHeight value="720"/>
-    <backgroundImage value="/home/knighteagle/newcode/lightshow/1121201711_HDR.jpg"/>
   </settings>
   <colors>
     <DisabledEffect Red="200" Green="200" Blue="0"/>

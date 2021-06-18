@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" parm2="80" DropPattern="3,4,5,4" LayoutGroup="Default" StringType="Single Color White" name="Icicles - Top Windows" WorldPosX="366.0474" WorldPosY="524.3716" WorldPosZ="0.0000" X2="104.918030" Y2="1.165710" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="&gt;Icicles - Front House:1">
-      <ControllerConnection/>
-    </model>
-    <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" parm2="80" DropPattern="3,4,5,4" LayoutGroup="Default" StringType="Single Color White" name="Icicles - Front House" WorldPosX="245.4757" WorldPosY="441.4733" WorldPosZ="0.0000" X2="296.600769" Y2="0.129608" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="&gt;Icicles - Garage:1">
-      <ControllerConnection/>
-    </model>
-    <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" parm2="80" DropPattern="3,4,5,4" LayoutGroup="Default" StringType="Single Color White" name="Icicles - Garage" WorldPosX="575.8834" WorldPosY="422.9508" WorldPosZ="0.0000" X2="261.129395" Y2="-9.326050" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="1">
+    <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" name="Icicles" parm2="80" DropPattern="3,4,5,4" LayoutGroup="Default" WorldPosX="575.8834" WorldPosY="422.9508" WorldPosZ="0.0000" X2="261.129395" Y2="-9.326050" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="1">
       <ControllerConnection/>
     </model>
   </models>
