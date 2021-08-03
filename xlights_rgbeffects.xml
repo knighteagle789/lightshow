@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Spinner" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" name="Spinner" parm2="10" parm3="5" Hollow="20" Arc="360" LayoutGroup="Default" parm1="2" Controller="ESPixelStick" WorldPosX="538.4144" WorldPosY="504.6252" WorldPosZ="0.0000" ScaleX="1.5151" ScaleY="1.4336" ScaleZ="0.0385" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!ESPixelStick:1">
-      <ControllerConnection Port="1" Protocol="ws2811"/>
+    <model DisplayAs="Spinner" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" name="Spinner" Hollow="20" Arc="360" LayoutGroup="Default" Controller="ESPixelStick" parm2="5" parm1="1" parm3="10" WorldPosX="538.4144" WorldPosY="504.6252" WorldPosZ="0.0000" ScaleX="2.8138" ScaleY="2.6624" ScaleZ="0.0715" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!ESPixelStick:1">
+      <ControllerConnection Port="1" Protocol="ws2811" brightness="70"/>
     </model>
     <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" StringType="Single Color Red" parm2="100" name="Roof 4" WorldPosX="624.0637" WorldPosY="212.7668" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="5" PointData="0.000000,0.000000,0.000000,178.360718,-2.331497,0.000000,178.360718,-40.801453,0.000000,-4.663025,-37.304184,0.000000,-4.663025,-37.304184,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Roof 3:1">
       <ControllerConnection/>
@@ -13,7 +13,7 @@
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" StringType="Single Color White" TreeRotation="7.000000" TreePerspective="0.200000" TreeSpiralRotations="7.000000" parm1="1" parm2="150" name="Small Tree" WorldPosX="126.8708" WorldPosY="216.9104" WorldPosZ="0.0000" ScaleX="0.0972" ScaleY="0.0924" ScaleZ="0.0972" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Big Tree:1">
       <ControllerConnection/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" DisplayAs="Tree 360" StringType="Single Color White" TreeRotation="7.000000" TreePerspective="0.200000" TreeSpiralRotations="7.000000" parm1="1" parm2="150" name="Big Tree" WorldPosX="92.5623" WorldPosY="237.1624" WorldPosZ="0.0000" ScaleX="0.1225" ScaleY="0.1626" ScaleZ="0.1225" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Tree Wreath Big:1">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" LayoutGroup="Default" DisplayAs="Tree 360" StringType="Single Color White" TreeRotation="7.000000" TreePerspective="0.200000" TreeSpiralRotations="7.000000" name="Big Tree" parm1="1" parm3="1" parm2="150" WorldPosX="92.5623" WorldPosY="237.1624" WorldPosZ="0.0000" ScaleX="0.1225" ScaleY="0.1626" ScaleZ="0.1225" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Tree Wreath Big:1">
       <ControllerConnection/>
     </model>
     <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" parm2="80" DropPattern="3,4,5,4" LayoutGroup="Default" StringType="Single Color White" name="Icicles - Top Windows" WorldPosX="366.0474" WorldPosY="524.3716" WorldPosZ="0.0000" X2="104.918030" Y2="1.165710" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="&gt;Icicles - Front House:1">
@@ -66,6 +66,7 @@
   </perspectives>
   <settings>
     <backgroundImage value="/home/knighteagle/newcode/lightshow/1121201711_HDR.jpg"/>
+    <backgroundBrightness value="50"/>
     <previewWidth value="1280"/>
     <previewHeight value="720"/>
   </settings>

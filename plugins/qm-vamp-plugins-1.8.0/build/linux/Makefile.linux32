@@ -1,0 +1,14 @@
+
+CFLAGS := -DNDEBUG -O3 -fno-exceptions -fPIC -ffast-math -msse -mfpmath=sse -ftree-vectorize -fomit-frame-pointer -DUSE_PTHREADS
+#CFLAGS	:= -g -Wall
+
+CXXFLAGS := $(CFLAGS)
+
+LDFLAGS	 := -shared -Lbuild/linux/i686 -Wl,-Bstatic -lqm-dsp -lvamp-sdk -llapack -lcblas -lf77blas -latlas -lgfortran -Wl,-Bdynamic -lpthread -Wl,-z,defs -Wl,--version-script=vamp-plugin.map
+
+PLUGIN_EXT   := .so
+
+MAKEFILE_EXT := .linux32
+
+include build/general/Makefile.inc
+
