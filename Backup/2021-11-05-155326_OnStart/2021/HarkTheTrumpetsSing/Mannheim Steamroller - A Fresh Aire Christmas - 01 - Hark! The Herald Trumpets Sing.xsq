@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.35</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Hark! The Herald Trumpets Sing</song>
+    <artist>Mannheim Steamroller</artist>
+    <album>A Fresh Aire Christmas</album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/media/knighteagle/Reading/Music/Mannheim Steamroller/A Fresh Aire Christmas (1988)/Mannheim Steamroller - A Fresh Aire Christmas - 01 - Hark! The Herald Trumpets Sing.mp3</mediaFile>
+    <sequenceDuration>87.493</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Music_Fade=0,E_CHECKBOX_Music_LogarithmicX=0,E_CHECKBOX_Music_Scale=0,E_CHOICE_Music_Colour=Distinct,E_CHOICE_Music_Scaling=None,E_CHOICE_Music_Type=Morph,E_SLIDER_Music_Bars=20,E_SLIDER_Music_EndNote=80,E_SLIDER_Music_Offset=0,E_SLIDER_Music_Sensitivity=50,E_SLIDER_Music_StartNote=60</Effect>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="22077" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="0"/>
+    <Element collapsed="0" type="model" name="Spinner" visible="1"/>
+    <Element collapsed="0" type="model" name="Small Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Big Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Top Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Front House" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Garage" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Wreath Small" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Wreath Big" visible="1"/>
+    <Element collapsed="0" type="model" name="Outline Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Frame" visible="1"/>
+    <Element collapsed="0" type="model" name="Pillar Right" visible="1"/>
+    <Element collapsed="0" type="model" name="Pillar Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 1" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 3" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 4" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Spinner">
+      <EffectLayer>
+        <Effect ref="0" name="Music Effect" startTime="1125" endTime="87675" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Small Tree">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="10200" endTime="13350" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Big Tree">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="10250" endTime="13375" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Icicles - Top Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles - Front House">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles - Garage">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Lights">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="7850" endTime="10900" palette="1"/>
+        <Effect ref="1" name="On" selected="1" id="1" startTime="17525" endTime="18525" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree Wreath Small">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="7675" endTime="10200" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="17550" endTime="18550" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree Wreath Big">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="7475" endTime="9650" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="17550" endTime="18550" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Outline Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window Frame">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="7175" endTime="10175" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Pillar Right">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="5075" endTime="6575" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="14975" endTime="15975" palette="1"/>
+        <Effect ref="1" name="On" id="2" startTime="16675" endTime="17500" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Pillar Left">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="5475" endTime="7150" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="14350" endTime="15350" palette="1"/>
+        <Effect ref="1" name="On" id="2" startTime="16025" endTime="17025" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 1">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="1175" endTime="4525" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="13525" endTime="17525" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 2">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="2500" endTime="5000" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="14100" endTime="16000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 3">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="3925" endTime="5700" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="14675" endTime="16600" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 4">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="15250" endTime="17550" palette="1"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

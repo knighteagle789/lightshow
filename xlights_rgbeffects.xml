@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Spinner" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" name="Spinner" Hollow="20" Arc="360" LayoutGroup="Default" Controller="ESPixelStick" parm2="5" parm1="1" parm3="10" WorldPosX="538.4144" WorldPosY="504.6252" WorldPosZ="0.0000" ScaleX="2.8138" ScaleY="2.6624" ScaleZ="0.0715" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!ESPixelStick:1">
+    <model DisplayAs="Spinner" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" name="Spinner" Arc="360" LayoutGroup="Default" parm1="1" Hollow="10" Dir="L" StartSide="T" Alternate="true" ZigZag="false" parm3="5" parm2="10" Controller="ESPixelStick1" WorldPosX="538.4144" WorldPosY="504.6252" WorldPosZ="0.0000" ScaleX="1.6414" ScaleY="1.5530" ScaleZ="0.0417" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!ESPixelStick1:1">
       <ControllerConnection Port="1" Protocol="ws2811" brightness="70"/>
     </model>
     <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" StringType="Single Color Red" parm2="100" name="Roof 4" WorldPosX="624.0637" WorldPosY="212.7668" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="5" PointData="0.000000,0.000000,0.000000,178.360718,-2.331497,0.000000,178.360718,-40.801453,0.000000,-4.663025,-37.304184,0.000000,-4.663025,-37.304184,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Roof 3:1">

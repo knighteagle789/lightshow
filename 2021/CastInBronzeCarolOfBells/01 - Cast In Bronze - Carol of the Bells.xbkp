@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.24</version>
+    <version>2021.35</version>
     <author/>
     <author-email/>
     <author-website/>
@@ -42,7 +42,7 @@
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>E_CHECKBOX_Music_Fade=0,E_CHECKBOX_Music_LogarithmicX=0,E_CHECKBOX_Music_Scale=0,E_CHOICE_Music_Colour=Distinct,E_CHOICE_Music_Scaling=None,E_CHOICE_Music_Type=Morph,E_SLIDER_Music_Bars=20,E_SLIDER_Music_EndNote=80,E_SLIDER_Music_Offset=0,E_SLIDER_Music_Sensitivity=50,E_SLIDER_Music_StartNote=60</Effect>
+    <Effect>E_CHECKBOX_Music_Fade=0,E_CHECKBOX_Music_LogarithmicX=0,E_CHECKBOX_Music_Scale=0,E_CHOICE_Music_Colour=Distinct,E_CHOICE_Music_Scaling=None,E_CHOICE_Music_Type=Morph,E_SLIDER_Music_Bars=20,E_SLIDER_Music_EndNote=127,E_SLIDER_Music_Offset=0,E_SLIDER_Music_Sensitivity=0,E_SLIDER_Music_StartNote=0</Effect>
     <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=5,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=5,E_SLIDER_Pinwheel_Thickness=2,E_SLIDER_Pinwheel_Twist=0</Effect>
     <Effect></Effect>
     <Effect>E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=0,E_SLIDER_Shockwave_CenterY=0,E_SLIDER_Shockwave_End_Radius=10,E_SLIDER_Shockwave_End_Width=10,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=1</Effect>
@@ -782,7 +782,7 @@
     </Element>
     <Element type="model" name="Spinner">
       <EffectLayer>
-        <Effect ref="0" name="Music Effect" selected="1" startTime="600" endTime="15250" palette="0"/>
+        <Effect ref="0" name="Music Effect" startTime="600" endTime="18650" palette="0"/>
         <Effect ref="1" name="Pinwheel" id="1" startTime="18650" endTime="22350" palette="1"/>
         <Effect ref="2" name="On" id="2" startTime="22350" endTime="23500" palette="2"/>
         <Effect ref="3" name="Shockwave" id="3" startTime="23500" endTime="34150" palette="0"/>
@@ -1825,7 +1825,7 @@
         <Effect ref="2" name="On" id="15" startTime="18650" endTime="19000" palette="5"/>
         <Effect ref="2" name="On" id="16" startTime="19750" endTime="20100" palette="5"/>
         <Effect ref="2" name="On" id="17" startTime="20850" endTime="21250" palette="5"/>
-        <Effect ref="2" name="On" id="18" startTime="22350" endTime="23500" palette="2"/>
+        <Effect ref="2" name="On" id="18" startTime="22400" endTime="23550" palette="2"/>
         <Effect ref="2" name="On" id="19" startTime="24300" endTime="24700" palette="5"/>
         <Effect ref="2" name="On" id="20" startTime="25450" endTime="25800" palette="5"/>
         <Effect ref="2" name="On" id="21" startTime="26600" endTime="26950" palette="5"/>
@@ -2879,7 +2879,7 @@
     </Element>
     <Element type="model" name="Roof 4">
       <EffectLayer>
-        <Effect ref="2" name="On" startTime="22350" endTime="23500" palette="2"/>
+        <Effect ref="2" name="On" selected="1" startTime="22350" endTime="23500" palette="2"/>
         <Effect ref="2" name="On" id="1" startTime="23500" endTime="28100" palette="2"/>
         <Effect ref="2" name="On" id="2" startTime="41900" endTime="45550" palette="5"/>
         <Effect ref="2" name="On" id="3" startTime="58300" endTime="58850" palette="2"/>
