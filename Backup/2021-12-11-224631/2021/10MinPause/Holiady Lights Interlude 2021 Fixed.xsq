@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.37</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Holiady LIghts Interlude 2021 Fixed</song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/home/knighteagle/newcode/lightshow/2021/10MinPause/Holiady LIghts Interlude 2021 Fixed.m4a</mediaFile>
+    <sequenceDuration>601.859</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1,C_COLOURPICKERCTRL_SparklesColour=#EAEAEA</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_FIRETIMING=0,E_CHECKBOX_Fireworks_Gravity=1,E_CHECKBOX_Fireworks_HoldColour=1,E_CHECKBOX_Fireworks_UseMusic=0,E_SLIDER_Fireworks_Count=71,E_SLIDER_Fireworks_Explosions=50,E_SLIDER_Fireworks_Fade=50,E_SLIDER_Fireworks_Velocity=2,E_SLIDER_Fireworks_XLocation=-1,E_SLIDER_Fireworks_XVelocity=0,E_SLIDER_Fireworks_YLocation=-1,E_SLIDER_Fireworks_YVelocity=0,E_TEXTCTRL_Fireworks_XLocation=-1,E_TEXTCTRL_Fireworks_XVelocity=0,E_TEXTCTRL_Fireworks_YLocation=-1,E_TEXTCTRL_Fireworks_YVelocity=0</Effect>
+    <Effect>E_CHECKBOX_Music_Fade=0,E_CHECKBOX_Music_LogarithmicX=0,E_CHECKBOX_Music_Scale=0,E_CHOICE_Music_Colour=Distinct,E_CHOICE_Music_Scaling=None,E_CHOICE_Music_Type=Morph,E_SLIDER_Music_Bars=20,E_SLIDER_Music_EndNote=127,E_SLIDER_Music_Offset=0,E_SLIDER_Music_Sensitivity=50,E_SLIDER_Music_StartNote=0</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=0,E_SLIDER_Pinwheel_Twist=0</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1</Effect>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="Spinner" visible="1"/>
+    <Element collapsed="0" type="model" name="Pillar Right" visible="1"/>
+    <Element collapsed="0" type="model" name="Pillar Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Small Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Big Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Top Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Front House" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Garage" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Wreath Small" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Wreath Big" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Frame" visible="1"/>
+    <Element collapsed="0" type="model" name="Outline Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 1" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 3" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 4" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Spinner">
+      <EffectLayer>
+        <Effect ref="0" name="Fireworks" selected="1" startTime="0" endTime="159600" palette="0"/>
+        <Effect ref="1" name="Music Effect" id="1" startTime="168700" endTime="326400" palette="0"/>
+        <Effect ref="2" name="Pinwheel" id="2" startTime="334800" endTime="493400" palette="0"/>
+        <Effect ref="3" name="Butterfly" id="3" startTime="502050" endTime="600050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Pillar Right">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="168200" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="502550" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Pillar Left">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="168200" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="506750" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Small Tree">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="509750" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Big Tree">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="515450" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Icicles - Top Windows">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="520250" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Icicles - Front House">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="523100" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Icicles - Garage">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="527750" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree Lights">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="532500" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree Wreath Small">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="538800" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree Wreath Big">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="543900" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Window Frame">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="550400" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Outline Roof">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="554600" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 1">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="559000" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 2">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="565650" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 3">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="572550" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 4">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="578550" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

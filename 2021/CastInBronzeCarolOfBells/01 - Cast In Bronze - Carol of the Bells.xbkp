@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.35</version>
-    <author/>
-    <author-email/>
-    <author-website/>
+    <version>2021.37</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
     <song>Carol of the Bells</song>
     <artist>Cast in Bronze</artist>
     <album>The Voyage</album>
-    <MusicURL/>
-    <comment/>
+    <MusicURL></MusicURL>
+    <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/home/knighteagle/newcode/lightshow/2021/CastInBronzeCarolOfBells/01 - Cast In Bronze - Carol of the Bells.mp3</mediaFile>
@@ -782,7 +782,7 @@
     </Element>
     <Element type="model" name="Spinner">
       <EffectLayer>
-        <Effect ref="0" name="Music Effect" startTime="600" endTime="18650" palette="0"/>
+        <Effect ref="0" name="Music Effect" selected="1" startTime="600" endTime="18650" palette="0"/>
         <Effect ref="1" name="Pinwheel" id="1" startTime="18650" endTime="22350" palette="1"/>
         <Effect ref="2" name="On" id="2" startTime="22350" endTime="23500" palette="2"/>
         <Effect ref="3" name="Shockwave" id="3" startTime="23500" endTime="34150" palette="0"/>
@@ -2879,7 +2879,7 @@
     </Element>
     <Element type="model" name="Roof 4">
       <EffectLayer>
-        <Effect ref="2" name="On" selected="1" startTime="22350" endTime="23500" palette="2"/>
+        <Effect ref="2" name="On" startTime="22350" endTime="23500" palette="2"/>
         <Effect ref="2" name="On" id="1" startTime="23500" endTime="28100" palette="2"/>
         <Effect ref="2" name="On" id="2" startTime="41900" endTime="45550" palette="5"/>
         <Effect ref="2" name="On" id="3" startTime="58300" endTime="58850" palette="2"/>

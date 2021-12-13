@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2021.35</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
-    <song></song>
-    <artist></artist>
-    <album></album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <version>2021.37</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile></mediaFile>
+    <mediaFile/>
     <sequenceDuration>600</sequenceDuration>
     <imageDir/>
   </head>
@@ -34,8 +34,6 @@
   <DisplayElements>
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
     <Element collapsed="0" type="model" name="Spinner" visible="1"/>
-    <Element collapsed="0" type="model" name="Roof 4" visible="1"/>
-    <Element collapsed="0" type="model" name="Pillar Left" visible="1"/>
     <Element collapsed="0" type="model" name="Small Tree" visible="1"/>
     <Element collapsed="0" type="model" name="Big Tree" visible="1"/>
     <Element collapsed="0" type="model" name="Icicles - Top Windows" visible="1"/>
@@ -45,11 +43,13 @@
     <Element collapsed="0" type="model" name="Tree Wreath Small" visible="1"/>
     <Element collapsed="0" type="model" name="Tree Wreath Big" visible="1"/>
     <Element collapsed="0" type="model" name="Pillar Right" visible="1"/>
+    <Element collapsed="0" type="model" name="Pillar Left" visible="1"/>
     <Element collapsed="0" type="model" name="Window Frame" visible="1"/>
     <Element collapsed="0" type="model" name="Outline Roof" visible="1"/>
     <Element collapsed="0" type="model" name="Roof 1" visible="1"/>
     <Element collapsed="0" type="model" name="Roof 2" visible="1"/>
     <Element collapsed="0" type="model" name="Roof 3" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 4" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -58,87 +58,109 @@
     <Element type="model" name="Spinner">
       <EffectLayer>
         <Effect ref="0" name="Galaxy" startTime="0" endTime="510600" palette="0"/>
-        <Effect ref="1" name="Curtain" selected="1" id="1" startTime="540600" endTime="600000" palette="1"/>
-      </EffectLayer>
-    </Element>
-    <Element type="model" name="Roof 4">
-      <EffectLayer>
-        <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
-      </EffectLayer>
-    </Element>
-    <Element type="model" name="Pillar Left">
-      <EffectLayer>
-        <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="1" name="Curtain" id="1" startTime="540000" endTime="600000" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Small Tree">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="540000" endTime="545000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Big Tree">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="545000" endTime="550000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Icicles - Top Windows">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="550000" endTime="555000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Icicles - Front House">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="555000" endTime="560000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Icicles - Garage">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="560000" endTime="565000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Tree Lights">
       <EffectLayer>
-        <Effect ref="2" name="On" startTime="1200" endTime="541200" palette="2"/>
+        <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="540300" endTime="545300" palette="2"/>
+        <Effect ref="2" name="On" id="2" startTime="565000" endTime="570000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Tree Wreath Small">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="545300" endTime="550300" palette="2"/>
+        <Effect ref="2" name="On" id="2" startTime="570000" endTime="575000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Tree Wreath Big">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="550300" endTime="555300" palette="2"/>
+        <Effect ref="2" name="On" id="2" startTime="575000" endTime="580000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Pillar Right">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="555300" endTime="560300" palette="2"/>
+        <Effect ref="2" name="On" id="2" startTime="580000" endTime="585000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Pillar Left">
+      <EffectLayer>
+        <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="560300" endTime="565300" palette="2"/>
+        <Effect ref="2" name="On" id="2" startTime="585000" endTime="590000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Window Frame">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="565300" endTime="570300" palette="2"/>
+        <Effect ref="2" name="On" id="2" startTime="590000" endTime="595000" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Outline Roof">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="570300" endTime="575300" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Roof 1">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="575300" endTime="580300" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Roof 2">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="580300" endTime="585300" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Roof 3">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="585300" endTime="590300" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 4">
+      <EffectLayer>
+        <Effect ref="2" name="On" startTime="0" endTime="540000" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="590300" endTime="595300" palette="2"/>
       </EffectLayer>
     </Element>
   </ElementEffects>

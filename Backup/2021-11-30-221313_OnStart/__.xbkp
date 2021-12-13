@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.37</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_COLOURPICKERCTRL_SparklesColour=#EAEAEA</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=test,E_CHOICE_Faces_TimingTrack=Lyrics</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="-1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="0"/>
+    <Element collapsed="0" type="timing" name="Lyrics" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="Matrix-2" visible="1"/>
+    <Element collapsed="0" type="model" name="Spinner" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 4" visible="1"/>
+    <Element collapsed="0" type="model" name="Pillar Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Small Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Big Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Top Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Front House" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Garage" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Wreath Small" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Wreath Big" visible="1"/>
+    <Element collapsed="0" type="model" name="Pillar Right" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Frame" visible="1"/>
+    <Element collapsed="0" type="model" name="Outline Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 1" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 3" visible="1"/>
+    <Element collapsed="0" type="model" name="Custom" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="Lyrics">
+      <EffectLayer>
+        <Effect label="Welcome to the Noco Woods Christmas Light Display" startTime="0" endTime="30000"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="Welcome" startTime="0" endTime="3750"></Effect>
+        <Effect label="to" startTime="3750" endTime="7500"></Effect>
+        <Effect label="the" startTime="7500" endTime="11250"></Effect>
+        <Effect label="Noco" startTime="11250" endTime="15000"></Effect>
+        <Effect label="Woods" startTime="15000" endTime="18750"></Effect>
+        <Effect label="Christmas" startTime="18750" endTime="22500"></Effect>
+        <Effect label="Light" startTime="22500" endTime="26250"></Effect>
+        <Effect label="Display" startTime="26250" endTime="30000"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="WQ" startTime="0" endTime="900"></Effect>
+        <Effect label="E" startTime="900" endTime="1850"></Effect>
+        <Effect label="L" startTime="1850" endTime="2750"></Effect>
+        <Effect label="etc" startTime="2750" endTime="2800"></Effect>
+        <Effect label="AI" startTime="2800" endTime="3700"></Effect>
+        <Effect label="MBP" startTime="3700" endTime="3750"></Effect>
+        <Effect label="etc" startTime="3750" endTime="3800"></Effect>
+        <Effect label="U" startTime="3800" endTime="7500"></Effect>
+        <Effect label="etc" startTime="7500" endTime="7550"></Effect>
+        <Effect label="AI" startTime="7550" endTime="11250"></Effect>
+        <Effect label="WQ" startTime="11250" endTime="12200"></Effect>
+        <Effect label="O" startTime="12200" endTime="13150"></Effect>
+        <Effect label="WQ" startTime="13150" endTime="14050"></Effect>
+        <Effect label="O" startTime="14050" endTime="15000"></Effect>
+        <Effect label="WQ" startTime="15000" endTime="16850"></Effect>
+        <Effect label="U" startTime="16850" endTime="18700"></Effect>
+        <Effect label="etc" startTime="18700" endTime="18750"></Effect>
+        <Effect label="etc" startTime="18750" endTime="18800"></Effect>
+        <Effect label="AI" startTime="18800" endTime="20600"></Effect>
+        <Effect label="etc" startTime="20600" endTime="20650"></Effect>
+        <Effect label="MBP" startTime="20650" endTime="20700"></Effect>
+        <Effect label="AI" startTime="20700" endTime="22450"></Effect>
+        <Effect label="etc" startTime="22450" endTime="22500"></Effect>
+        <Effect label="L" startTime="22500" endTime="24350"></Effect>
+        <Effect label="AI" startTime="24350" endTime="26200"></Effect>
+        <Effect label="etc" startTime="26200" endTime="26250"></Effect>
+        <Effect label="etc" startTime="26250" endTime="26300"></Effect>
+        <Effect label="AI" startTime="26300" endTime="27500"></Effect>
+        <Effect label="etc" startTime="27500" endTime="27550"></Effect>
+        <Effect label="MBP" startTime="27550" endTime="27600"></Effect>
+        <Effect label="L" startTime="27600" endTime="28800"></Effect>
+        <Effect label="E" startTime="28800" endTime="30000"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Matrix-2">
+      <EffectLayer>
+        <Effect ref="0" name="Faces" selected="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Spinner">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof 4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pillar Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Small Tree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Big Tree">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles - Top Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles - Front House">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Icicles - Garage">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Wreath Small">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Wreath Big">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pillar Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window Frame">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Outline Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof 1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof 2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof 3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Custom">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
