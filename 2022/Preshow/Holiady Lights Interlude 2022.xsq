@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.40</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song>Holiady LIghts Interlude 2021 Fixed</song>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/home/knighteagle/newcode/lightshow/2021/10MinPause/Holiady LIghts Interlude 2021 Fixed.m4a</mediaFile>
+    <sequenceDuration>601.859</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1,C_COLOURPICKERCTRL_SparklesColour=#EAEAEA</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_COLOURPICKERCTRL_SparklesColour=#EAEAEA</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1,C_COLOURPICKERCTRL_SparklesColour=#EAEAEA</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=0,E_SLIDER_Pinwheel_Twist=0</Effect>
+    <Effect>E_CHECKBOX_Music_Fade=0,E_CHECKBOX_Music_LogarithmicX=0,E_CHECKBOX_Music_Scale=0,E_CHOICE_Music_Colour=Distinct,E_CHOICE_Music_Scaling=None,E_CHOICE_Music_Type=Morph,E_SLIDER_Music_Bars=20,E_SLIDER_Music_EndNote=127,E_SLIDER_Music_Offset=0,E_SLIDER_Music_Sensitivity=50,E_SLIDER_Music_StartNote=0</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1</Effect>
+    <Effect></Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=left,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=Noto Sans 10,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=Welcome to the NocoWoods Light Show.  Please tune to FM 87.9,E_TEXTCTRL_Text_Speed=5</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=left,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=Noto Sans 10,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=The next show begins in 10 minutes! Stay Tuned,E_TEXTCTRL_Text_Speed=6</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=left,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=Noto Sans 10,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=The next show begins in 5 minutes! Stay Tuned,E_TEXTCTRL_Text_Speed=6</Effect>
+    <Effect>E_CHECKBOX_Circles_Bounce=1,E_CHECKBOX_Circles_Bubbles=0,E_CHECKBOX_Circles_Collide=0,E_CHECKBOX_Circles_Linear_Fade=1,E_CHECKBOX_Circles_Plasma=0,E_CHECKBOX_Circles_Radial=0,E_CHECKBOX_Circles_Radial_3D=0,E_CHECKBOX_Circles_Random_m=0,E_SLIDER_Circles_Count=3,E_SLIDER_Circles_Size=2,E_SLIDER_Circles_Speed=4</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=left,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=Noto Sans 10,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=The next show begins in 1 minute! Stay Tuned,E_TEXTCTRL_Text_Speed=6</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=1,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Skips_Advance=100,E_SLIDER_Skips_BandSize=2,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_VALUECURVE_Chase_Rotations=Active=TRUE|Id=ID_VALUECURVE_Chase_Rotations|Type=Exponential Down|Min=1.00|Max=500.00|P1=34.00|P2=250.50|RV=TRUE|,E_VALUECURVE_Color_Mix1=Active=TRUE|Id=ID_VALUECURVE_Color_Mix1|Type=Ramp|Min=1.00|Max=100.00|P1=33.67|P2=67.33|RV=TRUE|,E_VALUECURVE_Number_Chases=Active=TRUE|Id=ID_VALUECURVE_Number_Chases|Type=Ramp Up/Down|Min=1.00|Max=20.00|P1=1.00|P2=20.00|P3=1.00|RV=TRUE|</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="Spinner" visible="1"/>
+    <Element collapsed="0" type="model" name="Pillar Right" visible="1"/>
+    <Element collapsed="0" type="model" name="Pillar Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Small Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Big Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Top Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Front House" visible="1"/>
+    <Element collapsed="0" type="model" name="Icicles - Garage" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Wreath Small" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Wreath Big" visible="1"/>
+    <Element collapsed="0" type="model" name="Window Frame" visible="1"/>
+    <Element collapsed="0" type="model" name="Outline Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 1" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 3" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof 4" visible="1"/>
+    <Element collapsed="0" type="model" name="Left Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Right Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Arches" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Spinner">
+      <EffectLayer>
+        <Effect ref="0" name="Pinwheel" selected="1" startTime="0" endTime="159600" palette="0"/>
+        <Effect ref="1" name="Music Effect" id="1" startTime="168700" endTime="326400" palette="0"/>
+        <Effect ref="0" name="Pinwheel" id="2" startTime="334800" endTime="493400" palette="0"/>
+        <Effect ref="2" name="Butterfly" id="3" startTime="502050" endTime="600050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Pillar Right">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="168200" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="502550" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Pillar Left">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="168200" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="506750" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Small Tree">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="509750" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Big Tree">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="515450" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Icicles - Top Windows">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="520250" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Icicles - Front House">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="523100" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Icicles - Garage">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="527750" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree Lights">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="532500" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree Wreath Small">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="538800" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree Wreath Big">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="543900" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Window Frame">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="550400" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Outline Roof">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="334850" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="554600" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 1">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="559000" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 2">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="565650" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 3">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="572550" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof 4">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="501650" palette="0"/>
+        <Effect ref="3" name="On" id="1" startTime="578550" endTime="583850" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Left Matrix">
+      <EffectLayer>
+        <Effect ref="4" name="Text" startTime="0" endTime="597600" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Right Matrix">
+      <EffectLayer>
+        <Effect ref="5" name="Text" startTime="0" endTime="61200" palette="1"/>
+        <Effect ref="2" name="Butterfly" id="1" startTime="69600" endTime="273600" palette="0"/>
+        <Effect ref="6" name="Text" id="2" startTime="284400" endTime="345600" palette="1"/>
+        <Effect ref="7" name="Circles" id="3" startTime="352300" endTime="529200" palette="1"/>
+        <Effect ref="8" name="Text" id="4" startTime="542400" endTime="603600" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Arches">
+      <EffectLayer>
+        <Effect ref="9" name="SingleStrand" startTime="0" endTime="584500" palette="2"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

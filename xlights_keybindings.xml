@@ -111,4 +111,8 @@
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="NEXT_TAG"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FLIP_HORIZ"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FLIP_VERT"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_SUBMODELS"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FACES"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_STATES"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_MODELDATA"/>
 </keybindings>
