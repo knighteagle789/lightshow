@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrgb>
+  <models>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" StringType="Single Color Blue" name="Left Pillar" WorldPosX="265.1315" WorldPosY="289.3732" WorldPosZ="0.0000" X2="0.000000" Y2="122.444672" Z2="0.000000" versionNumber="5" StartChannel="&gt;Right Pillar:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="11"/>
+    </model>
+    <model DisplayAs="Wreath" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" StringType="Single Color Red" name="Wreath-2" WorldPosX="238.5904" WorldPosY="236.0446" WorldPosZ="0.0000" ScaleX="1.1899" ScaleY="0.5503" ScaleZ="1.5162" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Wreath:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="8"/>
+    </model>
+    <model DisplayAs="Wreath" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" name="Wreath" LayoutGroup="Default" StringType="Single Color Red" WorldPosX="239.3366" WorldPosY="233.9561" WorldPosZ="0.0000" ScaleX="1.5162" ScaleY="0.9037" ScaleZ="1.5162" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Tree-2:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="7"/>
+    </model>
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Tree 360" LayoutGroup="Default" StringType="Single Color Red" parm1="1" parm2="70" TreeSpiralRotations="5.000000" name="Tree-2" WorldPosX="149.0269" WorldPosY="231.6311" WorldPosZ="0.0000" ScaleX="0.5089" ScaleY="0.3257" ScaleZ="0.5089" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Tree:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="5"/>
+    </model>
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" name="Tree" DisplayAs="Tree 360" LayoutGroup="Default" StringType="Single Color Red" parm1="1" parm2="70" TreeSpiralRotations="5.000000" WorldPosX="99.7917" WorldPosY="241.2664" WorldPosZ="0.0000" ScaleX="0.5089" ScaleY="0.3257" ScaleZ="0.5089" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Window Frame:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="4"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm2="50" name="Window Frame" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" StringType="Single Color White" PixelSize="4" WorldPosX="383.7112" WorldPosY="368.0447" WorldPosZ="0.0000" ScaleX="4.8568" ScaleY="1.4782" ScaleZ="4.8568" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Icicles - Over Window:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="6"/>
+    </model>
+    <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" DropPattern="3,4,5,4" LayoutGroup="Default" parm2="70" CustomColor="#000000" StringType="Single Color White" name="Icicles - Front House" WorldPosX="242.2848" WorldPosY="439.5738" WorldPosZ="0.0000" X2="309.849915" Y2="3.756622" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="&gt;Icicles - Garage:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="2"/>
+    </model>
+    <model DisplayAs="Spinner" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" name="Spinner" parm2="10" parm3="5" Hollow="20" Arc="360" LayoutGroup="Default" parm1="2" WorldPosX="530.1342" WorldPosY="508.6808" WorldPosZ="0.0000" ScaleX="1.7136" ScaleY="1.4578" ScaleZ="0.0385" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="1">
+      <ControllerConnection Protocol="ws2811" brightness="70"/>
+    </model>
+    <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" DropPattern="3,4,5,4" LayoutGroup="Default" parm2="70" CustomColor="#000000" StringType="Single Color White" name="Icicles - Garage" WorldPosX="573.6758" WorldPosY="424.0567" WorldPosZ="0.0000" X2="270.965515" Y2="3.401245" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="!FPP:1">
+      <ControllerConnection Protocol="genericserial" channel="1" Port="1"/>
+    </model>
+    <model DisplayAs="Icicles" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" parm2="80" DropPattern="3,4,5,4" LayoutGroup="Default" name="Icicles - Over Window" StringType="Single Color Red" WorldPosX="369.6014" WorldPosY="519.2914" WorldPosZ="0.0000" X2="97.502197" Y2="0.000000" Z2="0.000000" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="5" StartChannel="&gt;Icicles - Front House:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="3"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" StringType="Single Color Red" name="Live Tree Lights" WorldPosX="238.0868" WorldPosY="232.4535" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="7" PointData="0.000000,0.000000,0.000000,-0.000015,80.495987,0.000000,-23.808670,114.508408,0.000000,3.401260,79.362228,0.000000,5.668747,114.508408,0.000000,3.401260,80.495987,0.000000,23.808701,113.374680,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Wreath-2:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="9"/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" StringType="Single Color Blue" name="Right Pillar" WorldPosX="539.6635" WorldPosY="290.2746" WorldPosZ="0.0000" X2="0.000000" Y2="122.444672" Z2="0.000000" versionNumber="5" StartChannel="&gt;Live Tree Lights:1">
+      <ControllerConnection Protocol="genericserial" channel="1"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="Roof Border" StringType="Single Color Red" WorldPosX="562.5446" WorldPosY="443.9394" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="7" PointData="0.000000,0.000000,0.000000,29.046326,29.983368,0.000000,-226.749420,31.857361,0.000000,-224.875488,88.076294,0.000000,25.298401,91.824158,0.000000,27.172363,30.920380,0.000000,27.172363,30.920380,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Left Pillar:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="12"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="Top Roof - 1" StringType="Single Color Red" WorldPosX="586.4316" WorldPosY="240.0824" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="4" PointData="0.000000,0.000000,0.000000,167.731140,-3.470261,0.000000,164.260925,-31.232666,0.000000,-6.940552,-26.605576,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Roof Border:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="13"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" StringType="Single Color Red" name="Top Roof - 2" WorldPosX="626.0200" WorldPosY="200.0200" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="4" PointData="0.000000,0.000000,0.000000,167.731140,-3.470261,0.000000,164.260925,-31.232666,0.000000,-6.940552,-26.605576,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Top Roof - 1:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="14"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" StringType="Single Color Red" name="Top Roof - 3" WorldPosX="666.0200" WorldPosY="160.0200" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="4" PointData="0.000000,0.000000,0.000000,167.731140,-3.470261,0.000000,164.260925,-31.232666,0.000000,-6.940552,-26.605576,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Top Roof - 2:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="15"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" StringType="Single Color Red" name="Top Roof - 4" WorldPosX="706.0200" WorldPosY="120.0200" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="4" PointData="0.000000,0.000000,0.000000,167.731140,-3.470261,0.000000,164.260925,-31.232666,0.000000,-6.940552,-26.605576,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Top Roof - 3:1">
+      <ControllerConnection Protocol="genericserial" Port="1" channel="16"/>
+    </model>
+  </models>
+  <view_objects>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5"/>
+  </view_objects>
+  <effects version="0006"/>
+  <views/>
+  <palettes/>
+  <modelGroups/>
+  <layoutGroups/>
+  <perspectives current="Default Perspective">
+    <perspective name="Default Perspective" settings="layout2|name=ModelPreview;caption=Model Preview;state=6293500;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=HousePreview;caption=House Preview;state=6293500;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectAssist;caption=Effect Assist;state=2099198;dir=4;layer=1;row=0;pos=2;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DisplayElements;caption=Display Elements;state=6293503;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=600;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=600;floath=400|name=Perspectives;caption=Perspectives;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=144;besth=156;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Effect;caption=Effect Settings;state=2099196;dir=4;layer=0;row=1;pos=0;prop=100000;bestw=452;besth=946;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectEffect;caption=Select Effects;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=430;besth=300;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectDropper;caption=Effects;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=1044;besth=696;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ValueCurveDropper;caption=Value Curves;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=40;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ColourDropper;caption=Colours;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Jukebox;caption=Jukebox;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=100;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Color;caption=Color;state=2099196;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=359;besth=448;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerTiming;caption=Layer Blending;state=2099196;dir=1;layer=0;row=0;pos=1;prop=100000;bestw=333;besth=369;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerSettings;caption=Layer Settings;state=2099196;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=303;besth=530;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SequenceVideo;caption=Sequence Video;state=2099199;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=320;besth=214;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=0;floaty=0;floatw=328;floath=238|name=Main Sequencer;caption=Main Sequencer;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=238;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,1,0)=252|dock_size(4,0,1)=352|dock_size(1,0,0)=138|dock_size(5,0,0)=240|" version="2.0"/>
+  </perspectives>
+  <settings>
+    <backgroundImage value="/home/knighteagle/code/lightshow/1121201711_HDR.jpg"/>
+    <previewWidth value="1280"/>
+    <previewHeight value="720"/>
+  </settings>
+  <colors>
+    <DisabledEffect Red="200" Green="200" Blue="0"/>
+    <EffectDefault Red="192" Green="192" Blue="192"/>
+    <EffectSelected Red="204" Green="102" Blue="255"/>
+    <EffectSelectedDisabled Red="200" Green="200" Blue="64"/>
+    <EffectSelectedFixed Red="255" Green="128" Blue="0"/>
+    <EffectSelectedLocked Red="200" Green="0" Blue="64"/>
+    <GridDashes Red="255" Green="255" Blue="0"/>
+    <Gridlines Red="40" Green="40" Blue="40"/>
+    <LabelOutline Red="103" Green="103" Blue="103"/>
+    <Labels Red="255" Green="255" Blue="204"/>
+    <LayoutDashes Red="255" Green="255" Blue="0"/>
+    <LockedEffect Red="200" Green="0" Blue="0"/>
+    <ModelDefault Red="211" Green="211" Blue="211"/>
+    <ModelOverlap Red="255" Green="0" Blue="0"/>
+    <ModelSelected Red="255" Green="255" Blue="0"/>
+    <Phonemes Red="255" Green="181" Blue="218"/>
+    <Phrases Red="153" Green="255" Blue="153"/>
+    <ReferenceEffect Red="255" Green="0" Blue="255"/>
+    <ReferenceEffectDisabled Red="255" Green="255" Blue="127"/>
+    <ReferenceEffectLocked Red="255" Green="0" Blue="127"/>
+    <RowHeaderSelected Red="130" Green="178" Blue="207"/>
+    <Timing1 Red="0" Green="255" Blue="255"/>
+    <Timing2 Red="255" Green="0" Blue="0"/>
+    <Timing3 Red="0" Green="255" Blue="0"/>
+    <Timing4 Red="0" Green="0" Blue="255"/>
+    <Timing5 Red="255" Green="255" Blue="0"/>
+    <TimingDefault Red="255" Green="255" Blue="255"/>
+    <Waveform Red="130" Green="178" Blue="207"/>
+    <WaveformSelected Red="0" Green="0" Blue="200"/>
+    <WaveformSelectedEffect Red="255" Green="128" Blue="0"/>
+    <Words Red="255" Green="218" Blue="145"/>
+  </colors>
+  <Viewpoints/>
+</xrgb>
