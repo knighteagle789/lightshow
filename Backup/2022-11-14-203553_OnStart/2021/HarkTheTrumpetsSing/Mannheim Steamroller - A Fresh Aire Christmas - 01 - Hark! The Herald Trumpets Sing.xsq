@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.22</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
+    <version>2021.36</version>
+    <author/>
+    <author-email/>
+    <author-website/>
     <song>Hark! The Herald Trumpets Sing</song>
     <artist>Mannheim Steamroller</artist>
     <album>A Fresh Aire Christmas</album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>C:\source\lightshow\2022\HarkTheTrumpetsSing\Mannheim Steamroller - A Fresh Aire Christmas - 01 - Hark! The Herald Trumpets Sing.mp3</mediaFile>
+    <mediaFile>/media/knighteagle/Reading/Music/Mannheim Steamroller/A Fresh Aire Christmas (1988)/Mannheim Steamroller - A Fresh Aire Christmas - 01 - Hark! The Herald Trumpets Sing.mp3</mediaFile>
     <sequenceDuration>87.493</sequenceDuration>
     <imageDir/>
   </head>
@@ -25,8 +25,6 @@
   <EffectDB>
     <Effect>E_CHECKBOX_Music_Fade=0,E_CHECKBOX_Music_LogarithmicX=0,E_CHECKBOX_Music_Scale=0,E_CHOICE_Music_Colour=Blend,E_CHOICE_Music_Scaling=All Notes,E_CHOICE_Music_Type=Bounce,E_SLIDER_Music_Bars=50,E_SLIDER_Music_EndNote=127,E_SLIDER_Music_Offset=0,E_SLIDER_Music_Sensitivity=50,E_SLIDER_Music_StartNote=0</Effect>
     <Effect></Effect>
-    <Effect>E_CHECKBOX_MotionEnabled=0,E_FILEPICKER_SketchBackground=,E_SLIDER_DrawPercentage=40,E_SLIDER_SketchBackgroundOpacity=48,E_SLIDER_Thickness=1,E_TEXTCTRL_SketchDef=0.490716&amp;comma;0.0175163;L0.435564&amp;comma;0.0173168;L0.436271&amp;comma;0.174786;L0.0321957&amp;comma;0.17094;L0.21812&amp;comma;0.374054;L0.105848&amp;comma;0.374764;L0.311564&amp;comma;0.594017;L0.174158&amp;comma;0.596749;L0.45484&amp;comma;0.901005;Q0.493053&amp;comma;0.881147&amp;comma;0.530929&amp;comma;0.899586;L0.824461&amp;comma;0.599586;L0.667346&amp;comma;0.601709;L0.888037&amp;comma;0.373345;L0.77475&amp;comma;0.375473;L0.965797&amp;comma;0.170425;L0.559246&amp;comma;0.173291;L0.55832&amp;comma;0.0166076;L0.504768&amp;comma;0.0175163;L0.490716&amp;comma;0.0175163;c|0.493955&amp;comma;0.894099;Q0.434437&amp;comma;0.884836&amp;comma;0.421587&amp;comma;0.934047;Q0.44864&amp;comma;0.980943&amp;comma;0.496661&amp;comma;0.978048;Q0.553473&amp;comma;0.972837&amp;comma;0.574102&amp;comma;0.928258;Q0.549077&amp;comma;0.885415&amp;comma;0.496999&amp;comma;0.893521;L0.493955&amp;comma;0.894099;L0.493955&amp;comma;0.894099;c</Effect>
-    <Effect>E_CHECKBOX_Music_Fade=0,E_CHECKBOX_Music_LogarithmicX=0,E_CHECKBOX_Music_Scale=0,E_CHOICE_Music_Colour=Distinct,E_CHOICE_Music_Scaling=None,E_CHOICE_Music_Type=Morph,E_SLIDER_Music_Bars=20,E_SLIDER_Music_EndNote=80,E_SLIDER_Music_Offset=0,E_SLIDER_Music_Sensitivity=50,E_SLIDER_Music_StartNote=60</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="22077" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -50,8 +48,6 @@
     <Element collapsed="0" type="model" name="Roof 2" visible="1"/>
     <Element collapsed="0" type="model" name="Roof 3" visible="1"/>
     <Element collapsed="0" type="model" name="Roof 4" visible="1"/>
-    <Element collapsed="0" type="model" name="Left Matrix" visible="1"/>
-    <Element collapsed="0" type="model" name="Right Matrix" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -87,7 +83,7 @@
         <Effect ref="1" name="On" id="6" startTime="66825" endTime="67325" palette="1"/>
         <Effect ref="1" name="On" id="7" startTime="68600" endTime="68975" palette="1"/>
         <Effect ref="1" name="On" id="8" startTime="71575" endTime="72575" palette="1"/>
-        <Effect ref="1" name="On" id="9" startTime="77925" endTime="87225" palette="1"/>
+        <Effect ref="1" name="On" selected="1" id="9" startTime="77925" endTime="87225" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Icicles - Top Windows">
@@ -348,18 +344,6 @@
         <Effect ref="1" name="On" id="16" startTime="73025" endTime="74025" palette="1"/>
         <Effect ref="1" name="On" id="17" startTime="74500" endTime="75550" palette="1"/>
         <Effect ref="1" name="On" id="18" startTime="77900" endTime="85500" palette="1"/>
-      </EffectLayer>
-    </Element>
-    <Element type="model" name="Left Matrix">
-      <EffectLayer>
-        <Effect ref="2" name="Sketch" startTime="500" endTime="13200" palette="1"/>
-        <Effect ref="3" name="Music Effect" selected="1" id="1" startTime="13500" endTime="87400" palette="0"/>
-      </EffectLayer>
-    </Element>
-    <Element type="model" name="Right Matrix">
-      <EffectLayer>
-        <Effect ref="2" name="Sketch" startTime="600" endTime="13300" palette="1"/>
-        <Effect ref="3" name="Music Effect" id="1" startTime="13300" endTime="87200" palette="0"/>
       </EffectLayer>
     </Element>
   </ElementEffects>
