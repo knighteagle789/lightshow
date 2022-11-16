@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.05</version>
-    <author/>
-    <author-email/>
-    <author-website/>
+    <version>2022.22</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
     <song>Tchaikovsky - Nutcracker Suite, op. 71a</song>
     <artist>The London Festival Orch. cond. Robert Sharples</artist>
     <album>1812</album>
-    <MusicURL/>
-    <comment/>
+    <MusicURL></MusicURL>
+    <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/home/knighteagle/newcode/lightshow/2022/03 - Dance of the Sugar Plum Fairies.flac</mediaFile>
@@ -65,13 +65,13 @@
     <Element collapsed="0" type="model" name="Tree Wreath Big" visible="1"/>
     <Element collapsed="0" type="model" name="Tree Lights" visible="1"/>
     <Element collapsed="0" type="model" name="Icicles - Top Windows" visible="1"/>
-    <Element collapsed="0" type="model" name="Icicles - Front House" visible="1"/>
-    <Element collapsed="0" type="model" name="Icicles - Garage" visible="1"/>
     <Element collapsed="0" type="model" name="Outline Roof" visible="1"/>
     <Element collapsed="0" type="model" name="Roof 1" visible="1"/>
     <Element collapsed="0" type="model" name="Roof 2" visible="1"/>
     <Element collapsed="0" type="model" name="Roof 3" visible="1"/>
     <Element collapsed="0" type="model" name="Roof 4" visible="1"/>
+    <Element collapsed="0" type="model" name="Mouth Closed - Icicles - Front House" visible="1"/>
+    <Element collapsed="0" type="model" name="Mouth Open - Icicles - Garage" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -484,7 +484,7 @@
       <EffectLayer>
         <Effect ref="3" name="Curtain" startTime="200" endTime="2550" palette="0"/>
         <Effect ref="1" name="Meteors" id="1" startTime="2550" endTime="105050" palette="0"/>
-        <Effect ref="2" name="Curtain" selected="1" id="2" startTime="105050" endTime="107450" palette="1"/>
+        <Effect ref="2" name="Curtain" id="2" startTime="105050" endTime="107450" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Spinner">
@@ -801,12 +801,6 @@
     <Element type="model" name="Icicles - Top Windows">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Icicles - Front House">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Icicles - Garage">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Outline Roof">
       <EffectLayer/>
     </Element>
@@ -820,6 +814,12 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Roof 4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Mouth Closed - Icicles - Front House">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Mouth Open - Icicles - Garage">
       <EffectLayer/>
     </Element>
   </ElementEffects>

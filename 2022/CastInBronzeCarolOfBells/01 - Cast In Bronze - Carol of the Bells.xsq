@@ -81,8 +81,8 @@
     <Element collapsed="0" type="model" name="Window Frame" visible="1"/>
     <Element collapsed="0" type="model" name="Outline Roof" visible="1"/>
     <Element collapsed="0" type="model" name="Icicles - Top Windows" visible="1"/>
-    <Element collapsed="0" type="model" name="Icicles - Front House" visible="1"/>
-    <Element collapsed="0" type="model" name="Icicles - Garage" visible="1"/>
+    <Element collapsed="0" type="model" name="Mouth Closed - Icicles - Front House" visible="1"/>
+    <Element collapsed="0" type="model" name="Mouth Open - Icicles - Garage" visible="1"/>
     <Element collapsed="0" type="model" name="Small Tree" visible="1"/>
     <Element collapsed="1" type="model" name="Big Tree" visible="1"/>
     <Element collapsed="0" type="model" name="Tree Wreath Small" visible="1"/>
@@ -1461,7 +1461,7 @@
         <Effect ref="2" name="On" id="56" startTime="260550" endTime="260900" palette="5"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Icicles - Front House">
+    <Element type="model" name="Mouth Closed - Icicles - Front House">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="22350" endTime="31100" palette="2"/>
         <Effect ref="2" name="On" id="1" startTime="37600" endTime="37950" palette="5"/>
@@ -1522,7 +1522,7 @@
         <Effect ref="2" name="On" id="56" startTime="260550" endTime="260900" palette="5"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Icicles - Garage">
+    <Element type="model" name="Mouth Open - Icicles - Garage">
       <EffectLayer>
         <Effect ref="2" name="On" startTime="22350" endTime="30750" palette="2"/>
         <Effect ref="2" name="On" id="1" startTime="37200" endTime="37600" palette="5"/>
@@ -2955,7 +2955,7 @@
     <Element type="model" name="Left Matrix">
       <EffectLayer>
         <Effect ref="24" name="Sketch" startTime="0" endTime="22600" palette="5"/>
-        <Effect ref="25" name="Music Effect" selected="1" id="1" startTime="22600" endTime="277800" palette="0"/>
+        <Effect ref="25" name="Music Effect" id="1" startTime="22600" endTime="277800" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Matrix">
